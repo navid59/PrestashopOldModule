@@ -1,16 +1,60 @@
------BEGIN PRIVATE KEY-----
-MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAO52nynEvwN9MmTl
-RnhnaPHdXD5Dx8FfjnUfZOg3sAMyR7qFlykbYl/dKdbfSosp370qfC6A5x8cE7ov
-m9a7xzHZWKPKqzzoZXumWXacOQDpcaYcQ8ddTg8PqOTrkNyuKz9q0OmMm4YtTZju
-VUpIND9FZZM2XEM6ezu8sJf6qIxnAgMBAAECgYAxVQz8YR17JU1lniEEC7CkSL0q
-jG8ozBH2nPYNLGgXYTGBnt10vZuOZXygXTVYsOL+iWmDXVtzDiXuoKbGt7YvbaJ9
-gbMZEywCDL4uGKXQmMpH4WIxZKSFQC4yQT2TjmFd+F7htDZz6goNRXsMD96RA9kF
-ESzolUZM57wl2MLMwQJBAPf6jrhzIQ3Yf7HgJ46fYTkyWJU8qdA+Dn4MWqwxSQAr
-qoEgdWq9yGnydamAg9Vb/Em5ca8kNq0dVEQ4fHK+HbECQQD2LUUkCD9iXcGr40IC
-T3hdc+UeAW+r128qVpftu0CGXeijz3TKl2KXoFV3M68X5eCtKTmKzpRifQSfnDev
-etmXAkEAzQCbKksrQUoAzukzaonCE0nWx5E+BYS38GaAMygPZI+0xkkyKIs6erPR
-p84xrpn76GrhW9wBQ34ior9bynP3EQJADC95eKsf2BKj/4okPlEIuDeAY9fWWz8y
-tXnL02ytaPlFBrbCJTURIEhDcr8QL7KlSGz9+Cz5k1Z04CGvb/Q4yQJAclzSqgyV
-93gzI8gDC3mbvogNRcuomg2vcsBpeYweUxZ+wGIpQDPcSKfzYCWdNJM0DsnY79dZ
-ffaDHy2/u/JeKg==
------END PRIVATE KEY-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 0 (0x0)
+    Signature Algorithm: md5WithRSAEncryption
+        Issuer: C=RO, ST=Bucharest, L=Bucharest, O=N E T O P I A , OU=N E T O P I A Development Team, CN=mobilpay.ro/emailAddress=support@mobilpay.ro
+        Validity
+            Not Before: Feb  1 10:40:22 2021 GMT
+            Not After : Feb  1 10:40:22 2022 GMT
+        Subject: C=RO, ST=Bucharest, L=Bucharest, O=N E T O P I A , OU=N E T O P I A Development Team, CN=mobilpay.ro/emailAddress=support@mobilpay.ro
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:bc:21:d3:f3:61:12:96:45:b8:ab:e0:85:9f:4d:
+                    ef:90:97:6d:ad:39:31:63:42:87:8d:b6:91:c7:c5:
+                    29:ba:8f:e5:85:62:09:40:60:dc:c7:39:65:87:75:
+                    7b:45:e2:f5:48:b5:40:8d:99:fe:3b:ef:72:1a:c3:
+                    64:64:30:8d:aa:c0:a6:bd:d2:f5:ba:30:1c:49:19:
+                    1f:cd:59:a2:53:a8:3c:70:59:6d:8a:40:db:c0:48:
+                    c8:76:11:71:a4:d7:8c:bb:62:04:6b:e3:a7:0b:b3:
+                    96:39:97:78:1a:15:2e:29:c8:68:4d:08:52:93:1e:
+                    9f:d3:0b:58:6d:9f:18:c7:5d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                3D:C9:70:A1:30:6C:73:53:34:1F:96:69:17:4F:5A:32:20:1A:1E:B5
+            X509v3 Authority Key Identifier: 
+                keyid:3D:C9:70:A1:30:6C:73:53:34:1F:96:69:17:4F:5A:32:20:1A:1E:B5
+
+            X509v3 Basic Constraints: 
+                CA:TRUE
+    Signature Algorithm: md5WithRSAEncryption
+         63:7b:c7:69:11:63:bc:1e:60:66:02:99:fc:2d:dd:e6:ed:e1:
+         d4:65:63:89:5d:97:0d:23:ea:ec:86:03:ff:31:f6:d8:18:cd:
+         a5:dc:48:c9:4c:10:76:ee:6b:ab:b6:b8:d3:d1:2b:99:05:0d:
+         13:37:b9:64:17:85:65:db:e3:36:6c:62:82:48:70:f8:df:06:
+         9c:14:7f:c9:a5:1d:f7:91:87:ba:17:07:e6:30:1e:4b:59:98:
+         6e:05:ac:34:9f:27:f1:3c:9b:ed:0a:ea:6a:ef:d8:df:43:2c:
+         60:78:c1:c3:c4:f4:f4:de:62:a7:ea:90:a9:f9:12:67:ce:a2:
+         02:7c
+-----BEGIN CERTIFICATE-----
+MIIDKjCCApOgAwIBAgIBADANBgkqhkiG9w0BAQQFADCBsTELMAkGA1UEBhMCUk8x
+EjAQBgNVBAgMCUJ1Y2hhcmVzdDESMBAGA1UEBwwJQnVjaGFyZXN0MRcwFQYDVQQK
+DA5OIEUgVCBPIFAgSSBBIDEnMCUGA1UECwweTiBFIFQgTyBQIEkgQSBEZXZlbG9w
+bWVudCBUZWFtMRQwEgYDVQQDDAttb2JpbHBheS5ybzEiMCAGCSqGSIb3DQEJARYT
+c3VwcG9ydEBtb2JpbHBheS5ybzAeFw0yMTAyMDExMDQwMjJaFw0yMjAyMDExMDQw
+MjJaMIGxMQswCQYDVQQGEwJSTzESMBAGA1UECAwJQnVjaGFyZXN0MRIwEAYDVQQH
+DAlCdWNoYXJlc3QxFzAVBgNVBAoMDk4gRSBUIE8gUCBJIEEgMScwJQYDVQQLDB5O
+IEUgVCBPIFAgSSBBIERldmVsb3BtZW50IFRlYW0xFDASBgNVBAMMC21vYmlscGF5
+LnJvMSIwIAYJKoZIhvcNAQkBFhNzdXBwb3J0QG1vYmlscGF5LnJvMIGfMA0GCSqG
+SIb3DQEBAQUAA4GNADCBiQKBgQC8IdPzYRKWRbir4IWfTe+Ql22tOTFjQoeNtpHH
+xSm6j+WFYglAYNzHOWWHdXtF4vVItUCNmf4773Iaw2RkMI2qwKa90vW6MBxJGR/N
+WaJTqDxwWW2KQNvASMh2EXGk14y7YgRr46cLs5Y5l3gaFS4pyGhNCFKTHp/TC1ht
+nxjHXQIDAQABo1AwTjAdBgNVHQ4EFgQUPclwoTBsc1M0H5ZpF09aMiAaHrUwHwYD
+VR0jBBgwFoAUPclwoTBsc1M0H5ZpF09aMiAaHrUwDAYDVR0TBAUwAwEB/zANBgkq
+hkiG9w0BAQQFAAOBgQBje8dpEWO8HmBmApn8Ld3m7eHUZWOJXZcNI+rshgP/MfbY
+GM2l3EjJTBB27murtrjT0SuZBQ0TN7lkF4Vl2+M2bGKCSHD43wacFH/JpR33kYe6
+FwfmMB5LWZhuBaw0nyfxPJvtCupq79jfQyxgeMHDxPT03mKn6pCp+RJnzqICfA==
+-----END CERTIFICATE-----

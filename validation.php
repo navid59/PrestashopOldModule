@@ -97,7 +97,12 @@ if(!empty($objPmReq->orderId) && $objPmReq->objPmNotify->errorCode == 0) {
 
   //real order id
   $order_id = Order::getOrderByCartId($realOrderId);
-
+  $Mobilpay_cc->doLog(
+      'IPN Action: '.$objPmReq->objPmNotify->action.' | '.
+      'orderId in MobilPay : '.$objPmReq->orderId.' | '.
+      'realOrderId (Card_ID): '.$realOrderId.' | '.
+      'realOrderId in ORDER TB : '.$order_id
+    );
   if(intval($order_id)>0) {    
     $order = new Order(intval($order_id));
 
@@ -113,6 +118,8 @@ if(!empty($objPmReq->orderId) && $objPmReq->objPmNotify->errorCode == 0) {
   else {
     //create the order
     $Mobilpay_cc->validateOrder($objPmReq->orderId, intval(Configuration::get('MPCC_OS_'.strtoupper($objPmReq->objPmNotify->action))), floatval($objPmReq->invoice->amount), $Mobilpay_cc->displayName, NULL, array(), NULL, false, $customer->secure_key);
+    //$this->module->validateOrder($order_id, intval(Configuration::get('MPCC_OS_'.strtoupper($objPmReq->objPmNotify->action))), floatval($objPmReq->invoice->amount), $Mobilpay_cc->displayName, NULL, array(), NULL, false, $customer->secure_key);
+    //$this->module->validateOrder($cart_id, $payment_status, $amount, $module_name, $message, array(), $currency_id, false, $secure_key);
       /*Tools::redirect(
           $this->context->link->getPagelink(
               'order-confirmation.php',

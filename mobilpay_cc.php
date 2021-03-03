@@ -533,4 +533,8 @@ class Mobilpay_cc extends PaymentModule
 
         return [$payment_options];
     }
+
+    public function doLog($str){
+        error_log($str."\r\n", 3, "/home/ctbhub/public_html/presta1771/modules/mobilpay_cc/my-errors.log");
+    }
 }
